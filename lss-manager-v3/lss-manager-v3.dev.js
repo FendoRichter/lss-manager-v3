@@ -172,6 +172,22 @@ lssm.Module = {
         develop: false,
         inframe: true
     },
+    buildingOorder: {
+      name: {
+          de: 'Ergänzung Wachenübersicht',
+          en: 'Completion of guard overview',
+          nl: 'Voltooiing van bewakeroverzicht'
+      },
+      active: false,
+      description: {
+          de: 'In der Wachenübersicht werden die Krankenhäuser in einen eigenen Tab angezeigt.',
+          en: 'In the watch list the hospitals are displayed in a separate tab.',
+          nl: 'In de watchlist worden de ziekenhuizen op een apart tabblad weergegeven.'
+      },
+      source: '/modules/lss-building-order/lss-building-order.user.js',
+      develop: false,
+      inframe: true
+  },
     Layout01: {
         name: {
             de: 'Layout 01',
